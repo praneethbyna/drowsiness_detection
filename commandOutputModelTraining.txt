@@ -1,0 +1,39 @@
+Random Forest Model Evaluation:
+Accuracy: 0.920384718140529
+Confusion Matrix:
+ [[3231  338]
+ [ 258 3659]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.93      0.91      0.92      3569
+           1       0.92      0.93      0.92      3917
+
+    accuracy                           0.92      7486
+   macro avg       0.92      0.92      0.92      7486
+weighted avg       0.92      0.92      0.92      7486
+
+
+Hyperparameter tuning for Random Forest...
+Best parameters for Random Forest: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+
+Saving Random Forest model...
+Random Forest model saved successfully.
+
+
+                     Feature  Importance
+8           eyebrow_distance    0.133272
+6                  head_tilt    0.126135
+7                   head_nod    0.124180
+2                    avg_EAR    0.110284
+1                  right_EAR    0.106040
+9          eyebrow_asymmetry    0.102660
+0                   left_EAR    0.087643
+3                        MAR    0.084940
+5   mouth_width_height_ratio    0.062136
+10    facial_droop_asymmetry    0.041717
+4               lip_distance    0.020991
+
+
+
+
